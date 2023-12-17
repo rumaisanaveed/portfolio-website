@@ -23,8 +23,8 @@ const Hero = () => {
           />
         </h1>
         <p className="font-jaldi md:w-full text-white lg:text-xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-          voluptatum.
+          I'm a frontend developer with a passion for creating interactive and
+          user-friendly web applications.
         </p>
         <div className="font-jaldi w-full md:max-w-md flex flex-col items-center gap-4 sm:flex-row sm:items-start pt-3">
           <Link

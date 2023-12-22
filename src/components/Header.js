@@ -83,30 +83,50 @@ const Header = () => {
           <Link
             to="hero"
             className="cursor-pointer decoration-2 decoration-purple hover:underline hover:underline-offset-8"
+            spy="true"
+            smooth="true"
+            offset={-100}
+            duration={500}
           >
             Hero
           </Link>
           <Link
             to="about"
             className="decoration-2 decoration-purple cursor-pointer hover:underline hover:underline-offset-8"
+            spy="true"
+            smooth="true"
+            offset={-100}
+            duration={500}
           >
             About
           </Link>
           <Link
             to="projects"
             className="decoration-2 decoration-purple cursor-pointer hover:underline hover:underline-offset-8"
+            spy="true"
+            smooth="true"
+            offset={-100}
+            duration={500}
           >
             Projects
           </Link>
           <Link
             to="skills"
             className="decoration-2 decoration-purple  cursor-pointer hover:underline hover:underline-offset-8"
+            spy="true"
+            smooth="true"
+            offset={-100}
+            duration={500}
           >
             Skills
           </Link>
           <Link
             to="contact"
             className="decoration-2 decoration-purple cursor-pointer hover:underline hover:underline-offset-8"
+            spy="true"
+            smooth="true"
+            offset={-100}
+            duration={500}
           >
             Contact Me
           </Link>

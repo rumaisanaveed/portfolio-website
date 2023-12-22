@@ -6,7 +6,7 @@ const Projects = () => {
     {
       id: 1,
       name: "Organic Store",
-      image: "/img/project1.jpg",
+      image: "/img/project2.jpeg",
       link: "https://organic-ecommerce-store.netlify.app/",
       code: "https://github.com/rumaisanaveed/ecommerce-app",
     },
@@ -14,7 +14,7 @@ const Projects = () => {
     {
       id: 2,
       name: "Resto Food",
-      image: "/img/project3.jpg",
+      image: "/img/project3.jpeg",
       link: "https://resto-food-website.netlify.app/",
       code: "https://github.com/rumaisanaveed/Resto-Food-Website",
     },
@@ -22,7 +22,7 @@ const Projects = () => {
     {
       id: 3,
       name: "Acme Rockets",
-      image: "/img/project2.jpg",
+      image: "/img/project1.jpeg",
       link: "https://acmee-rockets.netlify.app/",
       code: "",
     },

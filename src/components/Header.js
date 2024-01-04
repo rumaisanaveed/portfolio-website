@@ -28,7 +28,7 @@ const Header = () => {
               smooth="true"
               offset={-100}
               duration={500}
-              className="cursor-pointer decoration-2 decoration-purple hover:underline hover:underline-offset-8"
+              className="cursor-pointer decoration-2 decoration-pink hover:underline hover:underline-offset-8"
             >
               Home
             </Link>
@@ -38,7 +38,7 @@ const Header = () => {
               smooth="true"
               offset={-100}
               duration={500}
-              className="cursor-pointer decoration-2 decoration-purple hover:underline hover:underline-offset-8"
+              className="cursor-pointer decoration-2 decoration-pink hover:underline hover:underline-offset-8"
             >
               About
             </Link>
@@ -48,7 +48,7 @@ const Header = () => {
               smooth="true"
               offset={-100}
               duration={500}
-              className="cursor-pointer decoration-2 decoration-purple hover:underline hover:underline-offset-8"
+              className="cursor-pointer decoration-2 decoration-pink hover:underline hover:underline-offset-8"
             >
               Projects
             </Link>
@@ -58,7 +58,7 @@ const Header = () => {
               smooth="true"
               offset={-100}
               duration={500}
-              className="cursor-pointer decoration-2 decoration-purple hover:underline hover:underline-offset-8"
+              className="cursor-pointer decoration-2 decoration-pink hover:underline hover:underline-offset-8"
             >
               Skills
             </Link>
@@ -68,7 +68,7 @@ const Header = () => {
               smooth="true"
               offset={-100}
               duration={500}
-              className="cursor-pointer decoration-2 decoration-purple hover:underline hover:underline-offset-8"
+              className="cursor-pointer decoration-2 decoration-pink hover:underline hover:underline-offset-8"
             >
               Contact Me
             </Link>
@@ -82,7 +82,7 @@ const Header = () => {
         <section className="md:hidden mt-5 font-itim text-xl flex flex-col justify-center gap-4 items-center">
           <Link
             to="hero"
-            className="cursor-pointer decoration-2 decoration-purple hover:underline hover:underline-offset-8"
+            className="cursor-pointer decoration-2 decoration-pink hover:underline hover:underline-offset-8"
             spy="true"
             smooth="true"
             offset={-100}
@@ -92,7 +92,7 @@ const Header = () => {
           </Link>
           <Link
             to="about"
-            className="decoration-2 decoration-purple cursor-pointer hover:underline hover:underline-offset-8"
+            className="decoration-2 decoration-pink cursor-pointer hover:underline hover:underline-offset-8"
             spy="true"
             smooth="true"
             offset={-100}
@@ -102,7 +102,7 @@ const Header = () => {
           </Link>
           <Link
             to="projects"
-            className="decoration-2 decoration-purple cursor-pointer hover:underline hover:underline-offset-8"
+            className="decoration-2 decoration-pink cursor-pointer hover:underline hover:underline-offset-8"
             spy="true"
             smooth="true"
             offset={-100}
@@ -112,7 +112,7 @@ const Header = () => {
           </Link>
           <Link
             to="skills"
-            className="decoration-2 decoration-purple  cursor-pointer hover:underline hover:underline-offset-8"
+            className="decoration-2 decoration-pink  cursor-pointer hover:underline hover:underline-offset-8"
             spy="true"
             smooth="true"
             offset={-100}

@@ -2,7 +2,7 @@ const About = () => {
   return (
     <div id="about" className="flex justify-center items-center">
       <section className="w-4/5 my-12 border p-8 bg-gray border-6 border-solid rounded-2xl border-gray">
-        <h1 className="font-itim text-4xl font-bold py-5 text-center">
+        <h1 className="font-itim text-4xl font-bold py-5 text-center ">
           About Me
         </h1>
         <div className="my-9 flex flex-col gap-6 justify-center items-center lg:flex-row lg:justify-around">

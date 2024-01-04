@@ -54,7 +54,7 @@ const ContactForm = () => {
       <button
         type="submit"
         value="Send"
-        className="bg-purple text-white border border-solid border-purple rounded-md py-2 my-3"
+        className="bg-darkPink text-white border border-solid border-darkPink rounded-md py-2 my-3"
       >
         <div className="flex items-center justify-center gap-3">
           <p>Send Message</p>

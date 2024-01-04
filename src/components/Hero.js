@@ -9,7 +9,7 @@ const Hero = () => {
       className="mb-12 flex flex-col-reverse items-center justify-center gap-5 text-white p-8 sm:flex-row tallscreen:section-min-height widescreen:section-min-height"
     >
       <article className="sm:w-2/4 flex flex-col justify-center items-center text-center gap-4 py-5 sm:items-start sm:text-left">
-        <span className="font-kavoon max-w-md sm:w-full text-purple font-medium text-5xl lg:text-7xl">
+        <span className="font-kavoon max-w-md sm:w-full text-pink font-medium text-5xl lg:text-7xl">
           Hello I'm
         </span>
         <h1 className="font-itim md:w-full text-white font-medium text-3xl lg:text-5xl">
@@ -33,14 +33,14 @@ const Hero = () => {
             smooth="true"
             offset={-100}
             duration={500}
-            className="w-full sm:w-2/5 border-2 border-solid border-purple rounded-full text-xl p-3 bg-purple text-center text-black hover:text-white hover:bg-black cursor-pointer"
+            className="w-full sm:w-2/5 border-2 border-solid border-pink rounded-full text-xl p-3 bg-pink text-center text-black hover:text-white hover:bg-black cursor-pointer"
           >
             Hire Me
           </Link>
           <a
             href={updated_resume}
             download="Resume"
-            className="w-full text-center cursor-pointer sm:w-3/5 border-2 border-solid border-purple rounded-full text-xl p-3 hover:text-black hover:bg-purple"
+            className="w-full text-center cursor-pointer sm:w-3/5 border-2 border-solid border-pink rounded-full text-xl p-3 hover:text-black hover:bg-pink"
           >
             Download CV
           </a>

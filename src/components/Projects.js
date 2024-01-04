@@ -33,7 +33,7 @@ const Projects = () => {
       id="projects"
       className=" bg-black text-white p-8 flex flex-col justify-center items-center tallscreen:section-min-height widescreen:section-min-height"
     >
-      <h1 className="font-itim text-4xl font-bold text-center py-4">
+      <h1 className="font-itim text-4xl font-bold text-center py-4 ">
         My Projects
       </h1>
       <div className="p-1 my-12 flex flex-col flex-wrap justify-center items-center sm:flex-row gap-10">

@@ -38,7 +38,7 @@ const Skills = () => {
       id="skills"
       className="p-8 tallscreen:section-min-height widescreen:section-min-height text-center"
     >
-      <h1 className="font-itim text-4xl text-white font-bold">Skills</h1>
+      <h1 className="font-itim text-4xl text-white font-bold ">Skills</h1>
       <div className="flex flex-wrap items-center justify-center gap-8 my-24">
         {skills.map((skill) => (
           <div key={skill.id}>

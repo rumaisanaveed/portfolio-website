@@ -26,6 +26,22 @@ const Projects = () => {
       link: "https://acmee-rockets.netlify.app/",
       code: "",
     },
+
+    {
+      id: 4,
+      name: "Syncfusion Dashboard",
+      image: "/img/dashboard.png",
+      link: "https://dashboard-w-syncfusion.netlify.app/",
+      code: "https://github.com/rumaisanaveed/Dashboard-Application",
+    },
+
+    {
+      id: 5,
+      name: "Metaversus Website",
+      image: "/img/metaversus.jpeg",
+      link: "https://metaversus-web3.vercel.app/",
+      code: "https://github.com/rumaisanaveed/Metaversus",
+    },
   ];
 
   return (

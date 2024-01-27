@@ -30,7 +30,23 @@ const Skills = () => {
     },
     {
       id: 8,
-      image: "/img/BOOTSTRAP.png",
+      image: "/img/MONGODB.png",
+    },
+    {
+      id: 9,
+      image: "/img/NEXTJS.png",
+    },
+    {
+      id: 10,
+      image: "/img/PYTHON.png",
+    },
+    {
+      id: 11,
+      image: "/img/TYPESCRIPT.png",
+    },
+    {
+      id: 12,
+      image: "/img/FIGMA.png",
     },
   ];
   return (

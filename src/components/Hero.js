@@ -1,5 +1,5 @@
 import { Link } from "react-scroll";
-import updated_resume from "../../src/updated_resume.pdf";
+import resume from "../../src/resume.pdf";
 import Typewriter from "typewriter-effect";
 
 const Hero = () => {
@@ -38,7 +38,7 @@ const Hero = () => {
             Hire Me
           </Link>
           <a
-            href={updated_resume}
+            href={resume}
             download="Resume"
             className="w-full text-center cursor-pointer sm:w-3/5 border-2 border-solid border-pink rounded-full text-xl p-3 hover:text-black hover:bg-pink"
           >

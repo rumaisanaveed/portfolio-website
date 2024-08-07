@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import { FaFacebook } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa6";
 
 const InfoCard = () => {
   return (
@@ -16,13 +18,6 @@ const InfoCard = () => {
       </h3>
       <div className="flex items-center gap-5 text-2xl">
         <Link
-          to="https://www.facebook.com/profile.php?id=100077910005733"
-          target="_blank"
-          className="cursor-pointer"
-        >
-          <FaFacebook />
-        </Link>
-        <Link
           to="https://twitter.com/its_me_rumi"
           target="_blank"
           className="cursor-pointer"
@@ -35,6 +30,22 @@ const InfoCard = () => {
           className="cursor-pointer"
         >
           <FaLinkedin />
+        </Link>
+
+        <Link
+          to="https://www.instagram.com/techgirl_guide/"
+          target="_blank"
+          className="cursor-pointer"
+        >
+          <FaInstagram />
+        </Link>
+
+        <Link
+          to="https://github.com/rumaisanaveed/"
+          target="_blank"
+          className="cursor-pointer"
+        >
+          <FaGithub />
         </Link>
       </div>
     </div>

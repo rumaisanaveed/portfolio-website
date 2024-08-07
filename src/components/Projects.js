@@ -38,9 +38,16 @@ const Projects = () => {
     {
       id: 5,
       name: "Metaversus Website",
-      image: "/img/metaversus.jpeg",
+      image: "/img/metaversus.png",
       link: "https://metaversus-web3.vercel.app/",
       code: "https://github.com/rumaisanaveed/Metaversus",
+    },
+    {
+      id: 6,
+      name: "Panda Login Form",
+      image: "/img/panda-login-form.png",
+      link: "https://animated-panda-login.netlify.app/",
+      code: "https://github.com/rumaisanaveed/panda-login-page",
     },
   ];
 

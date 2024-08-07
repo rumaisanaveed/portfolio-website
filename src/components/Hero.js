@@ -18,7 +18,13 @@ const Hero = () => {
               autoStart: true,
               loop: true,
               delay: 40,
-              strings: ["Frontend Developer", "React Js Developer"],
+              strings: [
+                "Frontend Developer",
+                "React Js Developer",
+                "Next JS Developer",
+                "JavaScript Developer",
+                "TypeScript Developer",
+              ],
             }}
           />
         </h1>
@@ -39,7 +45,7 @@ const Hero = () => {
           </Link>
           <a
             href={resume}
-            download="Resume"
+            download="Resume - RumaisaNaveed"
             className="w-full text-center cursor-pointer sm:w-3/5 border-2 border-solid border-pink rounded-full text-xl p-3 hover:text-black hover:bg-pink"
           >
             Download CV
